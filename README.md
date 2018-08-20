@@ -6,7 +6,7 @@
 
 ```
 import Transport from "@ledgerhq/hw-transport-u2f"; // for browser
-import EosLedger from "@ledgerhq/hw-app-eos";
+import EosLedger from "@ledgerhq/hw-app-eos"; // Use https://github.com/altShiftDev/ledger-app-eos until ledger publishes repo
 import Eos from 'eosjs'
 import ecc from 'eosjs-ecc'
 import { sha256 } from "sha.js"
