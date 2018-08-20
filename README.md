@@ -1,7 +1,10 @@
 <img src="https://user-images.githubusercontent.com/211411/34776833-6f1ef4da-f618-11e7-8b13-f0697901d6a8.png" height="100" />
+
 ## Ledger Eos app API
-## Usage
-```js
+
+### Usage
+
+```
 import Transport from "@ledgerhq/hw-transport-u2f"; // for browser
 import EosLedger from "@ledgerhq/hw-app-eos";
 import Eos from 'eosjs'
