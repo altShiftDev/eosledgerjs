@@ -1,0 +1,72 @@
+{
+  "_from": "@ledgerhq/hw-app-eos",
+  "_id": "@ledgerhq/hw-app-eos@4.21.0",
+  "_inBundle": false,
+  "_integrity": "sha1-/zElSRoU1Zifj0WHh1FfxgMSL3c=",
+  "_location": "/@ledgerhq/hw-app-eos",
+  "_phantomChildren": {
+    "events": "2.1.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@ledgerhq/hw-app-eos",
+    "name": "@ledgerhq/hw-app-eos",
+    "escapedName": "@ledgerhq%2fhw-app-eos",
+    "scope": "@ledgerhq",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ledgerhq/hw-app-eos/-/hw-app-eos-4.21.0.tgz",
+  "_shasum": "ff3125491a14d5989f8f458787515fc603122f77",
+  "_spec": "@ledgerhq/hw-app-eos",
+  "_where": "/Users/3ceuser1/Downloads/eos-wallet",
+  "bugs": {
+    "url": "https://github.com/LedgerHQ/ledgerjs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@ledgerhq/hw-transport": "^4.21.0",
+    "base32.js": "^0.1.0",
+    "sha.js": "^2.3.6",
+    "tweetnacl": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Ledger Hardware Wallet Stellar Application API",
+  "devDependencies": {
+    "flow-bin": "^0.68.0",
+    "flow-typed": "^2.4.0"
+  },
+  "homepage": "https://github.com/LedgerHQ/ledgerjs",
+  "keywords": [
+    "Ledger",
+    "LedgerWallet",
+    "Eos",
+    "eos",
+    "NanoS",
+    "Blue",
+    "Hardware Wallet"
+  ],
+  "license": "Apache-2.0",
+  "main": "lib/EosLedger.js",
+  "name": "@ledgerhq/hw-app-eos",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LedgerHQ/ledgerjs.git"
+  },
+  "scripts": {
+    "build": "bash ../../script/build.sh",
+    "clean": "bash ../../script/clean.sh",
+    "flow": "flow",
+    "watch": "bash ../../script/watch.sh"
+  },
+  "version": "4.21.0"
+}
